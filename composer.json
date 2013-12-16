@@ -1,0 +1,20 @@
+{
+    "name": "ninjaparade/npbitly",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ninjaparade",
+            "email": "ninja@ninjaparade.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ninjaparade\\Npbitly": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
