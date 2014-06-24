@@ -13,7 +13,7 @@ class NpbitlyServiceProvider extends ServiceProvider {
         $this->package('ninjaparade/npbitly');
 
         AliasLoader::getInstance()
-        ->alias('NPBitly', 'Ninjaparade\Npbitly\Bitly');
+        	->alias('NPBitly', 'Ninjaparade\Npbitly\Bitly');
     }
 
 }
